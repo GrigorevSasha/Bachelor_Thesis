@@ -1,6 +1,6 @@
 # Trash folder with title page
 additions/
-#Files should be ignored
+#Files shoudl be ignored:
 *.bbl
 *.bcf
 *.blg
@@ -9,7 +9,6 @@ additions/
 *.out
 *.rtf
 *.xml
-*.aux
 *.synctex(busy)
 *.synctex.gz
 *.aux
