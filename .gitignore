@@ -1,0 +1,11 @@
+# Trash folder with title page
+additions/
+#File shoudl be ignored
+*.bbl
+*.bfc
+*.blg
+*.brf
+*.rtf
+*.xml
+*.gz
+*.toc
