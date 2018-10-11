@@ -1,0 +1,240 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Feynman1982}
+\selectlanguageifdefined{english}
+\BibEmph{Feynman~Richard~P.} {Simulating physics with computers}~//
+  \BibEmph{International Journal of Theoretical Physics}. ---
+\newblock 1982. ---
+\newblock Vol.~21, no. 6-7. ---
+\newblock Pp.~467--488.
+
+\bibitem{Shor1995}
+\selectlanguageifdefined{english}
+\BibEmph{Shor~Peter~W.} {Polynomial-Time Algorithms for Prime Factorization and
+  Discrete Logarithms on a Quantum Computer}. ---
+\newblock 1995. ---
+\newblock Pp.~124--134. ---
+\newblock URL:
+  \BibUrl{http://arxiv.org/abs/quant-ph/9508027{\%}0Ahttp://dx.doi.org/10.1137/S0097539795293172}.
+
+\bibitem{Grover1996}
+\selectlanguageifdefined{english}
+\BibEmph{Grover~Lov~K.} {A fast quantum mechanical algorithm for database
+  search}~// \BibEmph{Proceedings of the twenty-eighth annual ACM symposium on
+  Theory of computing - STOC '96}. ---
+\newblock 1996. ---
+\newblock Pp.~212--219. ---
+\newblock URL: \BibUrl{http://portal.acm.org/citation.cfm?doid=237814.237866}.
+
+\bibitem{Neumann1957}
+\selectlanguageifdefined{english}
+\BibEmph{Neumann~Von}. {Von Neumann ' S Contributions To Quantum Theory}. ---
+\newblock 1957. ---
+\newblock Pp.~95--99.
+
+\bibitem{Feynman1963}
+\selectlanguageifdefined{english}
+\BibEmph{Feynman~R.~P., Vernon~F.~L.} {The theory of a general quantum system
+  interacting with a linear dissipative system}~// \BibEmph{Annals of Physics}.
+  ---
+\newblock 1963. ---
+\newblock Vol.~24, no.~C. ---
+\newblock Pp.~118--173.
+
+\bibitem{Gu2017}
+\selectlanguageifdefined{english}
+{Microwave photonics with superconducting quantum circuits}~/ Xiu~Gu,
+  Anton~Frisk~Kockum, Adam~Miranowicz et~al.~// \BibEmph{Physics Reports}. ---
+\newblock 2017. ---
+\newblock Vol. 718-719. ---
+\newblock Pp.~1--102. ---
+\newblock URL: \BibUrl{https://doi.org/10.1016/j.physrep.2017.10.002}.
+
+\bibitem{Budini2009}
+\selectlanguageifdefined{english}
+\BibEmph{Budini~Adri{\'{a}}n~A.} {Open quantum system approach to
+  single-molecule spectroscopy}~// \BibEmph{Physical Review A - Atomic,
+  Molecular, and Optical Physics}. ---
+\newblock 2009. ---
+\newblock Vol.~79, no.~4.
+
+\bibitem{Talkner2009}
+\selectlanguageifdefined{english}
+\BibEmph{Talkner~Peter, Campisi~Michele, H{\"{a}}nggi~Peter}. {Fluctuation
+  theorems in driven open quantum systems}~// \BibEmph{Journal of Statistical
+  Mechanics: Theory and Experiment}. ---
+\newblock 2009. ---
+\newblock Vol. 2009, no.~2.
+
+\bibitem{Vool2017}
+\selectlanguageifdefined{english}
+\BibEmph{Vool~Uri, Devoret~Michel}. {Introduction to quantum electromagnetic
+  circuits}~// \BibEmph{International Journal of Circuit Theory and
+  Applications}. ---
+\newblock 2017. ---
+\newblock Vol.~45, no.~7. ---
+\newblock Pp.~897--934.
+
+\bibitem{Gershenfeld1997}
+\selectlanguageifdefined{english}
+\BibEmph{Gershenfeld~Neil~A, Chuang~Isaac~L}. {Bulk Spin-Resonance Quantum
+  Computation}. ---
+\newblock 1997. ---
+\newblock Vol. 275, no. January.
+
+\bibitem{Jaksch2000}
+\selectlanguageifdefined{english}
+{Fast quantum gates for neutral atoms}~/ D.~Jaksch, J.~I.~Cirac, P.~Zoller
+  et~al.~// \BibEmph{Physical Review Letters}. ---
+\newblock 2000. ---
+\newblock Vol.~85, no.~10. ---
+\newblock Pp.~2208--2211.
+
+\bibitem{Buluta2011}
+\selectlanguageifdefined{english}
+\BibEmph{Buluta~Iulia, Ashhab~Sahel, Nori~Franco}. {Natural and artificial
+  atoms for quantum computation}~// \BibEmph{Reports on Progress in Physics}.
+  ---
+\newblock 2011. ---
+\newblock Vol.~74, no.~10.
+
+\bibitem{Yan2016}
+\selectlanguageifdefined{english}
+{The flux qubit revisited to enhance coherence and reproducibility}~/ Fei~Yan,
+  Simon~Gustavsson, Archana~Kamal et~al.~// \BibEmph{Nature Communications}.
+  ---
+\newblock 2016. ---
+\newblock Vol.~7.
+
+\bibitem{Martinis2009}
+\selectlanguageifdefined{english}
+\BibEmph{Martinis~John~M.} {Superconducting phase qubits}~// \BibEmph{Quantum
+  Information Processing}. ---
+\newblock 2009. ---
+\newblock Vol.~8, no. 2-3. ---
+\newblock Pp.~81--103.
+
+\bibitem{DeGraaf2018}
+\selectlanguageifdefined{english}
+{Charge quantum interference device}~/ S.~E.~de~Graaf, S.~T.~Skacel,
+  T.~H{\"{o}}nigl-Decrinis et~al.~// \BibEmph{Nature Physics}. ---
+\newblock 2018. ---
+\newblock Vol.~14, no. June. ---
+\newblock Pp.~1--5. ---
+\newblock URL: \BibUrl{http://dx.doi.org/10.1038/s41567-018-0097-9}.
+
+\bibitem{Nakamura1999}
+\selectlanguageifdefined{english}
+\BibEmph{Nakamura~Y., Pashkin~Yu~A., Tsai~J.~S.} {Coherent control of
+  macroscopic quantum states in a single-Cooper-pair box}~// \BibEmph{Nature}.
+  ---
+\newblock 1999. ---
+\newblock Vol. 398, no. 6730. ---
+\newblock Pp.~786--788.
+
+\bibitem{Shulga2017}
+\selectlanguageifdefined{english}
+\BibEmph{Shulga}. {Thesis}. ---
+\newblock 2017.
+
+\bibitem{Wendin2005}
+\selectlanguageifdefined{english}
+\BibEmph{Wendin~G., Shumeiko~V.~S.} {Superconducting Quantum Circuits, Qubits
+  and Computing}. ---
+\newblock 2005. ---
+\newblock no.~c. ---
+\newblock URL: \BibUrl{http://arxiv.org/abs/cond-mat/0508729}.
+
+\bibitem{Koch2007}
+\selectlanguageifdefined{english}
+{Charge-insensitive qubit design derived from the Cooper pair box}~/ Jens~Koch,
+  Terri~M.~Yu, Jay~Gambetta et~al.~// \BibEmph{Physical Review A - Atomic,
+  Molecular, and Optical Physics}. ---
+\newblock 2007. ---
+\newblock Vol.~76, no.~4. ---
+\newblock Pp.~1--21.
+
+\bibitem{Kleiner2004}
+\selectlanguageifdefined{english}
+{Superconducting Quantum Interference Devices : State of the Art and
+  Applications}~/ Reinhold~Kleiner, Dieter~Koelle, Frank~Ludwig, John~Clarke.
+  ---
+\newblock 2004. ---
+\newblock Vol.~92, no.~10.
+
+\bibitem{Wallraff2005}
+\selectlanguageifdefined{english}
+{Approaching unit visibility for control of a superconducting qubit with
+  dispersive readout}~/ A.~Wallraff, D.~I.~Schuster, A.~Blais et~al.~//
+  \BibEmph{Physical Review Letters}. ---
+\newblock 2005. ---
+\newblock Vol.~95, no.~6. ---
+\newblock Pp.~2--5.
+
+\bibitem{Blais2004}
+\selectlanguageifdefined{english}
+{Cavity quantum electrodynamics for superconducting electrical circuits: An
+  architecture for quantum computation}~/ Alexandre~Blais, Ren~Shou~Huang,
+  Andreas~Wallraff et~al.~// \BibEmph{Physical Review A - Atomic, Molecular,
+  and Optical Physics}. ---
+\newblock 2004. ---
+\newblock Vol.~69, no.~6. ---
+\newblock Pp.~1--14.
+
+\bibitem{Clarke2008}
+\selectlanguageifdefined{english}
+\BibEmph{Clarke~John, Wilhelm~Frank~K.} {Superconducting quantum bits}~//
+  \BibEmph{Nature}. ---
+\newblock 2008. ---
+\newblock Vol. 453, no. 7198. ---
+\newblock Pp.~1031--1042.
+
+\bibitem{Stammeier}
+\selectlanguageifdefined{english}
+{Measuring the dispersive frequency shift of a rectangular microwave cavity
+  induced by an ensemble of Rydberg atoms}~/ M~Stammeier, S~Garcia, T~Thiele
+  et~al. ---
+\newblock Pp.~1--11.
+
+\bibitem{Kox2013}
+\selectlanguageifdefined{english}
+\BibEmph{Kox~A.~J.} {The discovery of the Stark effect and its early
+  theoretical explanations}~// \BibEmph{Annalen der Physik}. ---
+\newblock 2013. ---
+\newblock Vol. 525, no.~5. ---
+\newblock Pp.~63--66.
+
+\bibitem{Chen2012}
+\selectlanguageifdefined{english}
+{Multiplexed dispersive readout of superconducting phase qubits}~/ Yu~Chen,
+  D.~Sank, P.~Omalley et~al.~// \BibEmph{Applied Physics Letters}. ---
+\newblock 2012. ---
+\newblock Vol. 101, no.~18. ---
+\newblock Pp.~1--4.
+
+\bibitem{Leng2011}
+\selectlanguageifdefined{english}
+{Electrostatic control of the evolution from a superconducting phase to an
+  insulating phase in ultrathin YBa2Cu3O7-x films}~/ Xiang~Leng,
+  Javier~Garcia-Barriocanal, Shameek~Bose et~al.~// \BibEmph{Physical Review
+  Letters}. ---
+\newblock 2011. ---
+\newblock Vol. 107, no.~2.
+
+\bibitem{Magesan2015}
+\selectlanguageifdefined{english}
+{Machine Learning for Discriminating Quantum Measurement Trajectories and
+  Improving Readout}~/ Easwar~Magesan, Jay~M.~Gambetta, A.~D.~C{\'{o}}rcoles,
+  Jerry~M.~Chow~// \BibEmph{Physical Review Letters}. ---
+\newblock 2015. ---
+\newblock Vol. 114, no.~20. ---
+\newblock Pp.~1--8.
+
+\end{thebibliography}

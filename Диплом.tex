@@ -1,0 +1,90 @@
+%Create document as an extraarticle and 12th fontsize
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\renewcommand{\rmdefault}{ftm}
+%Text position on a page
+\usepackage[margin=1in, left=3cm,right=1cm, top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+%Creating titles views as you need
+\usepackage{titlesec}
+
+\titleformat*{\section}{\normalfont\normalsize\large}
+\titleformat*{\subsection}{\normalfont\normalsize}
+\titleformat*{\subsubsection}{\normalfont\normalsize}
+
+\titlespacing{\section}{5ex}{*4}{*1}
+\titlespacing{\subsection}{5ex}{*4}{*1}
+\titlespacing{\subsubsection}{5ex}{*4}{*1}
+
+%Creating itemizating without spaces between lines
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+%intext references parameters
+\usepackage[hidelinks, linktoc=all, backref=page, russian]{hyperref}
+\usepackage{indentfirst}
+\usepackage[russian]{babel}
+\usepackage{subcaption}
+\captionsetup[subfigure]{justification=centering}
+\usepackage{wrapfig}
+\usepackage[font=small, justification=centering]{caption}
+\usepackage{abstract}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{bbm}
+\usepackage{bm}
+\usepackage{cleveref}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{799B03}
+\setlength{\parskip}{0.1cm} 
+
+%Each paragraph start option
+\usepackage{indentfirst}  
+\setlength{\parindent}{5ex}
+%Pictures label option
+\RequirePackage{caption}
+\DeclareCaptionLabelSeparator{defffis}{ -- }
+\captionsetup{justification=centering,labelsep=defffis}
+\usepackage{graphicx} % Used to insert images
+\usepackage{adjustbox} % Used to constrain images to a maximum size 
+\usepackage{color} % Allow colors to be defined
+\usepackage{enumerate} % Needed for markdown enumerations to work
+\usepackage{geometry} % Used to adjust the document margins
+\usepackage{amsmath} % Equations
+\usepackage{amssymb} % Equations
+\usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+
+
+\usepackage{grffile} % extends the file name processing of package graphics 
+% to support a larger range 
+% The hyperref package gives us a pdf with properly built
+% internal navigation ('pdf bookmarks' for the table of contents,
+% internal cross-reference links, web links for URLs, etc.)
+\usepackage{longtable} % longtable support required by pandoc >1.10
+\hypersetup{pdfstartview=FitH,  linkcolor=black, colorlinks=true}
+
+
+
+\setcounter{page}{5}
+\begin{document}
+	\def\figurename{Рисунок}
+	\clearpage
+	\setcounter{tocdepth}{3}
+	\input{inc/Annotation}
+	\clearpage
+	\input{inc/contents}
+	\clearpage
+	\input{inc/intro}
+	\clearpage
+	\input{inc/theory}
+	\clearpage
+	\input{inc/experiment}
+	\clearpage
+	\input{inc/result}
+	\clearpage 
+	\input{inc/Database}
+	\clearpage
+\end{document}
