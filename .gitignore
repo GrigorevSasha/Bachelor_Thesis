@@ -9,3 +9,7 @@ additions/
 *.out
 *.rtf
 *.xml
+*.aux
+*.synctex(busy)
+*.synctex.gz
+*.toc
