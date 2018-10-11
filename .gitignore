@@ -2,10 +2,10 @@
 additions/
 #File shoudl be ignored
 *.bbl
-*.bfc
+*.bcf
 *.blg
+*.log
 *.brf
+*.out
 *.rtf
 *.xml
-*.gz
-*.toc
